@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget
+	xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.nuxyz"
+	version = "1.0.0"
+>
+
+	<name>Nuxyz</name>
+
+	<description>Nuxyz is a combination of goodies:
+• It's a social network
+• Eagerly protects your privacy
+• Accessible from both PC and mobile
+• Gathers all your favorite news for you
+• A great place to publish your news to your people
+• Offline-oriented so you can get to it when YOU want to
+• Helps you save your precious web items, and share them with the exact people you want to
+• Lets you "feed" groups so you can send a message to several groups without having to copy-paste it
+• Brings the control over your network back into your hands
+• Places your items on the map, and lets you find items on the map
+• An awesome replacement for sending emails - especially the ones that contain a link
+
+Nuxyz makes it easy for you to share the things that excite you, with the exact people you want to.
+It's like sending an email, but it's so much better.
+We take your privacy seriously. We're a bunch of paranoids. We know and appreciate how important this is.</description>
+
+	<author
+		href="https://nuxyz.com/help"
+		email="contact@nuxyz.com"
+	>Nuxyz, Inc.</author>
+
+	<icon src="logo.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/contacts"/>
+
+</widget>
